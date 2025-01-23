@@ -6,6 +6,39 @@
   height: 40vmin;
   pointer-events: none;
 }
+.container {
+  margin-top: 200px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.value {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.input {
+  margin-top: 10px;
+  width: 250px;
+  height: 30px;
+  border:1px solid #AAA;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button {
+  width: 270px;
+  background-color: #2296f3;
+  color: #FFF;
+  border:none;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
